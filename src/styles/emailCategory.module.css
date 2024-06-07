@@ -1,0 +1,49 @@
+.EmailCatHolder{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc3c3;
+    background-color: aquamarine;
+}
+
+.ExpeditorHolder{
+    width: 15%;
+}
+
+.Expeditor{
+    width: 95%;
+    /* background-color: red; */
+}
+.MessageTitleHolder{
+    width: 15%;
+}
+
+.MessageTitle{
+    width: 95%;
+    font-weight: bold;
+    /* background-color: greenyellow; */
+}
+
+.MessageHolder{
+    width: 40%;
+}
+
+.Message{
+    width: 95%;
+    margin-top: .5em;
+    /* background-color: aqua; */
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: no-wrap;
+}
+
+.timeStampHolder{
+    width: 15%;
+    background-color: red;
+}
+
+.TimeStamp{
+    width: 95%;
+    /* background-color: rgb(14, 62, 195); */
+}
